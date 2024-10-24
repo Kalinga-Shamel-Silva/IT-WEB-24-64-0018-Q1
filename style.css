@@ -1,0 +1,267 @@
+.background-color1 {
+    background-color: rgb(204, 205, 255);
+}
+
+.background-color2 {
+    background-color: rgb(255, 180, 180);
+}
+
+.background-color3 {
+    background-color: rgb(169, 255, 219);
+}
+
+
+.header-logo {
+    font-size: 40px;
+    font-weight: 900;
+    color: #4B6AFC;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Afacad Flux", sans-serif;
+
+
+}
+
+.header-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #4B6AFC;
+    border-radius: 30px;
+    color: #4B6AFC;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-button:hover {
+    background-color: #4B6AFC;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-image {
+    height: 500px;
+    object-fit: cover;
+}
+
+.hero-heading {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+
+}
+
+.hero-paragraph {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8d8d8d;
+    padding-right: 180px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+
+.hero-button1 {
+    padding-left: 45px;
+    padding-right: 45px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #4B6AFC;
+    border: none;
+}
+
+.hero-button1:hover {
+    color: #4B6AFC;
+    background-color: transparent;
+    outline: 2px solid #4B6AFC;
+}
+
+.hero-input {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 250px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.featured-heading {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+
+
+.feature-card1 {
+    background-color: #4B6AFC;
+    color: white;
+    border: none;
+    height: 300px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.feature-card2 {
+    background-color: #e2e8ff;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-top: 70px;
+    height: 300px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.feature-card3 {
+    background-color: #ebdfa0;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-top: 30px;
+    height: 300px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.feature-card1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.feature-card2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.feature-card3:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.feature-card-image {
+    height: 130px;
+}
+
+.feature-card-heading {
+    text-align: center;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 29px;
+    font-weight: 800;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.feature-card-paragraph {
+    padding-top: 0px;
+    text-align: center;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.task-management-image {
+    height: 280px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.task-management-heading {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    padding-right: 100px;
+    margin-bottom: 30px;
+    line-height: 37px;
+    margin-left: 20px;
+}
+
+.task-management-paragraph {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #8d8d8d;
+    padding-right: 65px;
+    padding-bottom: 25px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+
+
+.task-management-button {
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #4B6AFC;
+    border: none;
+    width: 170px;
+    margin-left: 20px;
+
+}
+
+.task-management-button:hover {
+    color: #4B6AFC;
+    background-color: transparent;
+    outline: 2px solid #4B6AFC;
+}
+
+.team-image {
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.team-apple-logo {
+    height: 35px;
+    object-fit: cover;
+
+}
+
+.team-playstore-logo {
+    height: 40px;
+    object-fit: cover;
+    padding-left: 30px;
+}
+
+.trustus-100000 {
+    font-size: 110px;
+    font-family: "Afacad Flux", sans-serif;
+    font-style: bold;
+    color: #4B6AFC;
+    font-weight: 800;
+}
+
+.trustus-image-left{
+    object-fit: cover;
+    height: 200px;
+}
+
+.trustus-image-right{
+    margin-top: 70px;
+    object-fit: cover;
+    height: 270px;
+}
+
+.footer-paragraph{
+    font-size: 18px;
+}
+
